@@ -5,6 +5,8 @@ This is a repo where you'll learn CSS, SCSS, Flexbox and lot more by contributin
 
 #### Try to be as innovative and beautiful as possible. It just might fetch you some bonus points.
 #### When unsure of whether an interface looks good enough, just ask yourself if you would like it when you see that everyday.
+ 
+#### To understand good design guidelines and patterns [read this blog](https://medium.com/the-aparoksha-blog/design-what-is-it-and-how-to-get-started-8f487b2a2a73).
 
 ## Contribution Guidelines
 
