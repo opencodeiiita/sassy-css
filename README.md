@@ -12,7 +12,7 @@ There will be 2 kinds of issues : Interface Design and Artwork Design.
 
 ### Interface Design:
 
-Make a folder with your name, put the index.html and style.css file it it > Upload it in the task's folder.
+Make a folder with your name, put the index.html and style.css file in it > Upload it in the task's folder.
 
 Eg. : Suppose you have to design a login page. Make a folder named <Your First Name> with the files index.html and style.css
   and upload it in interfaces/login folder.
