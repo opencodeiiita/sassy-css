@@ -1,6 +1,11 @@
 # Sassy CSS
 ### Showcasing your amazing pure CSS interfaces &amp; artworks.
 
+This is a repo where you'll learn CSS, SCSS, Flexbox and lot more by contributing and watching the works of co-contributors.
+
+#### Try to be as innovative and beautiful as possible. It just might fetch you some bonus points.
+#### When unsure of whether an interface looks good enough, just ask yourself if you would like it when you see that everyday.
+
 ## Contribution Guidelines
 
 There will be 2 kinds of issues : Interface Design and Artwork Design.
