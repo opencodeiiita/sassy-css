@@ -1,0 +1,208 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: sans-serif;
+	font-weight: 400;
+	line-height: 1.7;
+	color: #545;
+	font-size: 1.6rem;
+
+	box-sizing: border-box;
+}
+
+nav.bg-light {
+	margin-bottom: .5rem;
+  padding: 0;
+  background-color: unset !important;
+}
+
+.navbar-light .navbar-brand:link,
+.navbar-light .navbar-brand:visited {
+	color: white;
+  font-size: 2rem;
+  font-family: serif;
+  background-image: linear-gradient( to right bottom, #4d2a4d, #03A9F4);
+  padding: 0 2rem;
+  clip-path: polygon(7% 19%, 100% 0%, 88% 100%, 0% 100%);
+}
+
+.navbar-light .navbar-nav a {
+	margin: 0 .8rem;
+}
+
+.navbar-light .navbar-nav .nav-link:visited,
+.navbar-light .navbar-nav .nav-link:link {
+	color: #f2f2f2;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .active>.nav-link
+ {
+	color: #a1a1a1;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+	background: white;
+	color: #4d2a4d;
+  padding: .2rem .8rem;
+  margin: .3rem 1.5rem .3rem 0;
+  border-radius: .2rem;
+}
+.navbar-light .navbar-nav .active>.nav-link:hover {
+ 	background: #4d2a4d;
+ 	color: #f2f2f2;
+  padding: .1rem .7rem;
+ 	border: 1px solid #f2f2f2;
+}
+
+.dropdown-menu {
+	border: none;
+	padding: 0;
+  margin-top: .3rem;
+}
+
+.dropdown-menu .dropdown-item:link,
+.dropdown-menu .dropdown-item:visited {
+	background: #4d2a4d;
+	color: #f2f2f2;
+	margin: .1rem 0;
+	font-size: 1.2rem;
+  padding: .6rem 2rem;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+	background: #f2f2f2;
+	color: #4d2a4d;
+}
+
+.header {
+	background-color: #4d2a4d !important;
+}
+
+.header form input.form-control {
+    color: #4d2a4d;
+    padding: .2rem 1rem;
+    border: none;
+    border-radius: 100px;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+.header form input.form-control:focus {
+	padding: .5rem 1rem;
+  border-radius: .4rem;
+}
+
+.navbar-toggler {
+	background-color: white;
+	padding: 0.2rem 1rem;
+    font-size: 12px;
+    border-radius: 100px;
+}
+
+.btn-outline-success {
+	color: #f2f2f2;
+  border-color: #f2f2f2;
+  margin: 0 auto;
+  padding: .2rem 1.4rem;
+  font-weight: bold;
+  border-radius: 100px;
+}
+
+.btn-outline-success:hover {
+    color: #4d2a4d;
+    background-color: #00bcd4;
+    border-color: #00bcd4;
+}
+
+.section {
+  height: 95vh;
+}
+
+.container--section {
+	position: relative;
+	height: 100%;
+}
+
+.section__form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form {
+    background: #4d2a4d;
+    padding: 3.5rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    color: #f2f2f2;
+}
+
+.section .form input {
+    color: #4d2a4d;
+    padding: .2rem 1rem;
+    border: none;
+    border-radius: 100px;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+.link_signup:link, .link_signup:visited {
+	display: block;
+	float: right;
+  margin-bottom: 3rem;
+	color: #ffffff;
+}
+
+.link_signup:hover, .link_signup:focus {
+  color: #2196f3;
+  text-decoration: underline;
+}
+
+.section .form input:focus {
+	padding: .5rem 1rem;
+  border-radius: .4rem;
+}
+
+
+.form__input--submit {
+	display: block;
+	background: #ffffff;
+	margin: 0 auto;
+	width: 80%;
+}
+.form__input--submit:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+}
+
+.section .form .form__input--submit:focus {
+	border-radius: 100px;
+	padding: .2rem 1rem;
+	transform: translateY(-1px);
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+
+
+
+
+
+.footer {
+    height: 5rem;
+    background: #4d2a4d;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1.5rem;
+}
