@@ -24,3 +24,6 @@ Eg. : Suppose you have to design a login page. Make a folder named <Your First N
 Make your artwork on Codepen and give the link to it here in artworks.md file.
 
 Eg. : Go to artworks.md file, make an h2 header with the issue name (if doesn't exist) and add a bullet point with your name pointing to artwork link.
+
+[CodePen Tutorial](https://www.youtube.com/watch?v=vb9uYBtqmeM)   
+[CSS Art Tutorial](https://www.youtube.com/watch?v=HpyrfR1DUlc)
