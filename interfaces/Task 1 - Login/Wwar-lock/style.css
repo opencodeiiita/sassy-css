@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(../Wwar-lock/Images/smartphone-1283012_1920.jpg);
+    background: url(../Wwar-lock/Images/eiffel-tower-768501_1920.jpg);
     background-size: cover;
     background-position: center;
     font-family: cursive;
@@ -10,8 +10,7 @@ body{
 .loginbox{
     width: 320px;
     height: 450px;
-    background: rgb(120, 204, 23);
-    opacity: 0.7;
+    background: #2196f3;    
     color: black;
     top: 50%;
     left: 50%;
@@ -35,12 +34,14 @@ h1{
     padding: 0 0 30px;
     text-align: center;
     font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .loginbox p{
     margin: 0;
     padding: 0;
     font-weight: bold;
+    font-family: cursive;
 }
 
 .loginbox input{
@@ -51,7 +52,7 @@ h1{
 .loginbox input[type="text"], input[type="password"]
 {
     border: none;
-    border-bottom: 1px solid rgb(64, 57, 131);
+    border-bottom: 1px solid rgb(52, 33, 221);
     background: transparent;
     outline: none;
     height: 40px;
@@ -63,7 +64,7 @@ h1{
     border: none;
     outline: none;
     height: 40px;
-    background: #8b1482;
+    background: #c62828;
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
@@ -85,3 +86,8 @@ h1{
 {
     color: #3407ff;
 }
+
+::placeholder {
+    color: #fff;
+    opacity: 0.7;
+  }
