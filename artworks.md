@@ -4,3 +4,7 @@
 2. neerajd007: https://codepen.io/neerajd007/pen/MZzQoM
 3. Rattlecode17sh(Lalit Sharma) :- https://codepen.io/rattlecode17sh/pen/jXQpvr
 4. Rajatsharma1007: https://codepen.io/rajatsharma1007/pen/MZZmPM
+5. Archies11 : https://codepen.io/archies11/pen/LMMWYg
+
+## Artwork Task 2 - Car
+1. Rattlecode17sh(Lalit Sharma)(car):- https://codepen.io/rattlecode17sh/pen/PXXYgB

@@ -21,7 +21,7 @@ Eg. : Suppose you have to design a login page. Make a folder named <Your First N
   
 ### Artwork Design:
 
-Make your artwork on Codepen and give the link to it here in artworks.md file.
+Make your artwork on Codepen with the name `OpenCode-<your artwork name>`and give the link to it here in artworks.md file.
 
 Eg. : Go to artworks.md file, make an h2 header with the issue name (if doesn't exist) and add a bullet point with your name pointing to artwork link.
 
