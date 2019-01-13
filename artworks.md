@@ -5,8 +5,5 @@
 3. Rattlecode17sh(Lalit Sharma) :- https://codepen.io/rattlecode17sh/pen/jXQpvr
 
 
-
 ## Artwork Task 2 - Car
 1. Rattlecode17sh(Lalit Sharma)(car):- https://codepen.io/rattlecode17sh/pen/PXXYgB
-2. neerajd007: https://codepen.io/neerajd007/pen/GPPgPj
-
