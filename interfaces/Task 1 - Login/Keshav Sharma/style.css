@@ -1,0 +1,51 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/login.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+	color: white;
+}
+
+.container-cstm{
+	
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+	top: 30%;
+	margin: 0 auto;
+	float: center;
+	width: 50%;
+	height: 50%;
+	font-family: 'Roboto Slab', serif;
+}
+
+.remember{
+	float: right;
+}
+
+h2{
+	font-size: 35px;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: underline;
+}
+
+@media only screen (max-width: 680px){
+	form{
+		margin-top: 3vh;
+		font-size: 5vh;
+	}
+	h2{font-size: 6vh;}
+}
