@@ -1,0 +1,155 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  background: black;
+}
+
+body {
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: White;
+  font-smoothing: antialiased;
+  font-weight: 600;
+}
+
+a {
+  color: #BBB;
+}
+
+.content:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  background-color: black;
+  background-image: url("https://images.unsplash.com/photo-1547492270-95287f95cd32?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  -webkit-filter: blur(2px);
+ 
+  filter: blur(2px);
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 540px;
+  height: 540px;
+  background-color: rgba(10, 10, 10, 0.5);
+  margin: auto auto;
+  padding: 27px 60px;
+ 
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+ 
+  box-shadow: 0 0 10px black;
+}
+.content .title {
+  text-align: center;
+  font-size: 2.0rem;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.content input {
+  width: 100%;
+  font-size: 1.2rem;
+  font-family: "Open Sans";
+  margin: 10px 0px;
+  border: none;
+  padding: 10px;
+  
+  border-radius: 4px;
+}
+.content input[type=checkbox] {
+  display: none;
+}
+.content label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: relative;
+  margin-left: 5px;
+  margin-right: 10px;
+  top: 5px;
+}
+.content label:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  background-color: #aaa;
+}
+.content input[type=checkbox]:checked + label:before {
+  content: "\2713";
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  color: Black;
+  text-align: center;
+  line-height: 20px;
+}
+.content span {
+  font-size: 0.9rem;
+}
+.content button {
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 10px;
+  margin: 20px 0px;
+  background-color: #66A756;
+  color: White;
+  border: none;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.content .social span:before {
+  right: 75%;
+}
+.content .social span:after {
+  left: 75%;
+}
+.content .buttons {
+  width: 100%;
+  margin: 30px 0px;
+}
+.content .buttons button {
+  float: left;
+  width: 30%;
+  margin: 0px 1.5%;
+}
+.content .buttons button i {
+  padding-right: 7px;
+}
+.content .buttons button.facebook {
+  background-color: #4464B2;
+}
+.content .buttons button.twitter {
+  background-color: #28A9E0;
+}
+.content .buttons button.google {
+  background-color: #DA4735;
+}
+
+
+
+
+
