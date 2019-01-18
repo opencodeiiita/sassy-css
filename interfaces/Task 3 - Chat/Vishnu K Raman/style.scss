@@ -1,0 +1,21 @@
+$color1:#3742fa;
+$color2:#5352ed;
+$bg-1:#fff;
+$bg-2:#dff9fb;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.chat-app {
+    display: flex;
+
+}
