@@ -1,23 +1,182 @@
-/*
-Errno::ENOENT: No such file or directory @ rb_sysopen - style.sass
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 
-Backtrace:
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:454:in `read'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:454:in `update_stylesheet'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:294:in `watch'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin.rb:109:in `method_missing'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:51:in `process_result'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/exec/base.rb:52:in `parse'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/exec/base.rb:19:in `parse!'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/bin/sass:13:in `<top (required)>'
-C:/Ruby25-x64/bin/sass:23:in `load'
-C:/Ruby25-x64/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - style.sass"; }
+body {
+  background: #f5f6fa;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400; }
+
+.chat-app {
+  display: flex; }
+
+.side-menu {
+  padding: 0 45px;
+  padding-top: 50px;
+  flex-wrap: wrap;
+  background: #3742fa;
+  height: 100vh; }
+  .side-menu__list {
+    display: flex;
+    flex-direction: column; }
+  .side-menu__item {
+    font-weight: 600;
+    padding-top: 15px;
+    color: #fff; }
+  .side-menu__item:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 25px;
+    background: #6b73ff;
+    border-radius: 10px; }
+
+.contact-area {
+  margin: 5px; }
+  .contact-area__list {
+    background: #fff;
+    height: 100vh;
+    padding: 20px;
+    border-radius: 10px; }
+  .contact-area .search {
+    position: relative; }
+  .contact-area .search input {
+    text-indent: 30px; }
+  .contact-area .search .fa-search {
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    font-size: 17px;
+    color: #b2bec3; }
+  .contact-area input {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #b2bec3;
+    border-radius: 12px;
+    outline: none; }
+  .contact-area input:placholder {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600; }
+  .contact-area__group {
+    padding-top: 15px;
+    color: #1e90ff;
+    font-size: 20px;
+    font-weight: 600; }
+    .contact-area__group i {
+      padding-right: 10px; }
+  .contact-area__contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 13px;
+    margin-bottom: 5px;
+    /* padding: 0; */
+    /* padding-bottom: 22px; */
+    background: #f8f8f8;
+    border-radius: 18px; }
+    .contact-area__contact img {
+      height: 70px;
+      border-radius: 50%;
+      width: 70px;
+      background: #fff; }
+    .contact-area__contact .data {
+      display: flex;
+      flex-direction: column; }
+      .contact-area__contact .data .name-date {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 600;
+        color: #333;
+        padding-bottom: 11px; }
+        .contact-area__contact .data .name-date .date {
+          color: #959595;
+          font-weight: 400; }
+      .contact-area__contact .data .message {
+        font-size: 15px;
+        color: #57606f; }
+
+.chat-area {
+  height: 100vh;
+  flex-grow: 1;
+  margin: 5px; }
+  .chat-area__name-area {
+    background: #fff;
+    padding: 15px;
+    border-radius: 14px; }
+    .chat-area__name-area .profile {
+      display: flex;
+      align-items: center; }
+      .chat-area__name-area .profile img {
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
+        border: 3px solid #f8f8f8;
+        margin-right: 15px; }
+      .chat-area__name-area .profile .name {
+        font-weight: 600; }
+      .chat-area__name-area .profile .status {
+        padding-top: 5px;
+        color: #333; }
+  .chat-area__message-box {
+    height: 80vh;
+    background: #fff;
+    margin: 18px 5px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column; }
+    .chat-area__message-box .message-one {
+      margin: 20px 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .chat-area__message-box .message-one .text {
+        background: #3742fa;
+        color: #fff;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+        padding: 20px;
+        border-radius: 30px;
+        border-top-left-radius: 0px; }
+      .chat-area__message-box .message-one .time {
+        margin-left: 12px;
+        font-size: 15px;
+        color: #959595; }
+    .chat-area__message-box .response-one {
+      margin: 20px 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .chat-area__message-box .response-one .text {
+        background: #2f3542;
+        color: #fff;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+        padding: 20px;
+        border-radius: 30px;
+        border-top-left-radius: 0px; }
+      .chat-area__message-box .response-one .time {
+        margin-left: 12px;
+        font-size: 15px;
+        color: #959595; }
+    .chat-area__message-box .message-two {
+      margin: 20px 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .chat-area__message-box .message-two .text {
+        background: #3742fa;
+        color: #fff;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+        padding: 20px;
+        border-radius: 30px;
+        border-top-left-radius: 0px; }
+      .chat-area__message-box .message-two .time {
+        margin-left: 12px;
+        font-size: 15px;
+        color: #959595; }
+
+/*# sourceMappingURL=style.css.map */
