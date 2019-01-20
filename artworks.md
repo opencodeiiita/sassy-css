@@ -13,5 +13,7 @@
 2. neerajd007: https://codepen.io/neerajd007/pen/GPPgPj?editors=1000
 3. Archies11: https://codepen.io/archies11/pen/LMMWYg
 
-## Artwork Task 3 - Cat:
-1. neerajd007: https://codepen.io/neerajd007/details/maZvbj
+## Artwork Task 3 - Cat
+1. Archies11: https://codepen.io/archies11/pen/NeQbxV
+2. neerajd007: https://codepen.io/neerajd007/details/maZvbj
+
