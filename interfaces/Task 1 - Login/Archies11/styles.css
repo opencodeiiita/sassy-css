@@ -1,0 +1,114 @@
+
+*{
+  box-sizing: border-box;
+ }
+ body 
+ {
+  font-family: Arial;
+  background-image:url("back.jpg");
+  background-size: cover;
+ }
+ header
+ {
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+  padding:1px;
+ }
+ h2.a
+ {
+ font-family:georgia;
+ color:white;
+ font-size:47px;
+ margin-left:200px;
+ }
+ form.h
+ {
+  float:right;
+  position:absolute;
+  top:8%;
+  left:60%;
+ }
+ nav
+ {
+  float: left;
+  width: 50%;  
+  padding: 20px;
+ }
+ p.l
+ {
+ position:absolute;
+ top:31%;
+ left:13%;
+ font-size:22px;
+ }
+ p.m
+ {
+ position:absolute;
+ top:31%;
+ }
+ p.k
+ {
+ padding-left:24%;
+ font-size:35px;
+ }
+ div.gallery
+ {
+ width:170px;
+ float:left;
+ margin:10px;
+ }
+ div.desc
+ {
+ text-align:center;
+ padding:15px;
+ }
+ article
+ {
+  float: right;
+  width: 50%;
+  
+  padding: 1px;
+ }
+ input[type=submit] 
+ {
+ background-color: #4d4db8;
+ color: white;
+ border:1px solid #ccc;
+ border-radius:2px;
+ }
+ select
+{
+ margin:0 0;
+ padding:3px 5px;
+}
+input[type=button]{
+  background-color: #4d4db8;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 60px;
+  font-size: 20px;
+  text-decoration: b;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+}
+input[type=text]
+{
+ margin:6px 4px;
+ border-radius:5px;
+ padding:7px;
+ font-size:20px;
+ width:30%;
+ border:1px solid #ccc;
+ color:darkgray;
+ }
+input[type=text1]
+{
+ margin:6px 4px;
+ border-radius:5px;
+ padding:7px;
+ font-size:20px;
+ width:62%;
+ border:1px solid #ccc;
+ color:darkgray;
+ }

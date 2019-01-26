@@ -1,0 +1,62 @@
+
+         .backimage{
+                      background-image:url("a.jpg");
+                      height:140%;
+   
+                      background-size: cover;
+                      padding:0;
+                      margin:0;  
+                   }
+         .container{
+         	          position:absolute;
+         	          right:20;
+         	          height:550px;
+         	          margin: 50px;
+         	          max-width: 500px;
+         	          padding: 40px;
+         	          background-color:rgba(0,0,0,0.2);
+         	          border-radius:10px;
+                   }
+              .init{
+         	          font-size: 25px;
+                      font-family: "verdana";
+                   }
+             .parts{
+        	          font-size: 17px;
+        	          font-family: "verdana";
+                   }
+               .tab{
+        	          padding:10px;
+        	          margin:10px;
+        	          border-radius:10px;
+        	          background-color:rgb(180,180,180);
+        	          border:1px solid black;
+                   }
+            .button{
+        	          padding: 10px;
+        	          margin: 10px;
+        	          border-radius: 10px ;
+        	          font-size: 15px;
+        	          font-family: "verdana";
+        	          background-color:rgba(0,120,0,0.8);
+        	          border:1px solid white;
+                   } 
+      .buttongoogle{
+              	      padding: 10px;
+        	          margin: 10px;
+        	          border-radius: 10px ;
+        	          font-size: 10px;
+        	          font-family: "verdana";
+        	          background-color:rgba(200,0,0,1);
+        	          color:black;
+        	          border:1px solid white;
+                   } 
+    .buttonfacebook{
+              	      padding: 10px;
+              	      margin: 10px;
+        	          border-radius: 10px ;
+        	          font-size: 10px;
+        	          font-family: "verdana";
+        	          background-color: rgba(0,0,200,1);
+        	          border:1px solid white;
+                    } 
