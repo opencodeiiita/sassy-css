@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div id="chats">
+          <div class="search"><input class="search-box" type="text" name="" title="search" value=""><button class="search-button" type="button" name="button">search</button></div>
+          <a class="person active" id = "Thanos" onclick="hello()"><img class = "dp2" src="thanos.jpg" alt=""><div class = "contact">Thanos</div></a>
+          <a class="person" id = "ironMan" onclick="hello()"><img class = "dp2" src="ironMan.png" alt=""><div class="contact">Tony Stark</div></a>
+          <a class="person" id = "captain" onclick="hello()"><img class = "dp2" src="captain.jpg" alt=""><div class="contact">Captain</div></a>
+          <a class="person" id = "thor" onclick="hello()"><img class = "dp2" src="thor.jpg" alt=""><div class="contact">Thor</div></a>
+        </div>
+        <div class="chat-box">
+
+          <div class="top"><img id="image" class="photo" src="thanos.jpg" alt=""><div class="status"><p id = "display">Thanos</p><p>online</p></div></div>
+          <div class="middle" id="middles"></div>
+          <div class="bottom"><input class="text-box" id="user" type="text" name="" value=""> <button class="send" onclick="sent()" >SEND</button></div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script type="text/javascript" src="style.js">
+</script>
+<script src="https://code.jquery.com/jquery-3.0.0.js" integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo=" crossorigin="anonymous"></script>
