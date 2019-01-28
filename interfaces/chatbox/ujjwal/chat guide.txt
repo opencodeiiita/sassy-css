@@ -1,0 +1,45 @@
+      /////////////  GUIDE FOR THE CHAT BOX  /////////////
+
+1. >> double click to change the chat with a person
+2. >> click on send to send enter will not work
+
+	chat with thanos ::
+
+1st message send >> hello
+2nd message send >> //write your name// i want to ask something
+3rd message send >> why you have done all this
+4th message send >> you know avengers are assembling again.
+5th message send >> you killed tony stark
+6th message send >> no you can't kill him
+7th message send >> you will surely die
+8th message send >> or maybe it is.
+
+	chat with ironman ::
+1st message send >> hello
+2nd message send >> //write your name// 
+3rd message send >> yeah i am here to help. you know your location
+4th message send >> okk let me do something
+5th message send >> okk its a gud idea
+6th message send >> yeah sure 
+7th message send >> but we will not let you die
+8th message send >> yeah we will surely
+
+	chat with captain ::
+1st message send >> hello
+2nd message send >> its //write your name// 
+3rd message send >> you think its going to work
+4th message send >> whats your plan
+5th message send >> are u sure about it
+6th message send >> i think you can make it 
+7th message send >> yeah you all can do that
+8th message send >> gud luck buddy
+
+	chat with thor ::
+1st message send >> hello
+2nd message send >> no its //write your name// 
+3rd message send >> why not the head
+4th message send >> and why you belive him
+5th message send >> what did you lost
+6th message send >> i think loki is still alive
+7th message send >> he never dies
+8th message send >>that a gud idea
