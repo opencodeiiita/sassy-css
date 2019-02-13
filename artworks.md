@@ -34,3 +34,4 @@
 4. dhairyabaweja: https://codepen.io/dhairyabaweja/full/gqagaX
 5. mivishvajeet: https://codepen.io/mivishvajeet/pen/QYGjZg
 6. anupm12 : https://codepen.io/anupm12/full/YBVrdZ
+7. thesmallstar: https://codepen.io/smallstar/pen/GzGGBE
