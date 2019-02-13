@@ -10,8 +10,9 @@
 8. BLJS2warchief (Balaji Meruva) : https://codepen.io/BLJS2warchief/full/qLeQJw
 9. mivishvajeet: https://codepen.io/mivishvajeet/pen/bzqmVY
 10. anupm12 (Anupam Shukla): https://codepen.io/anupm12/full/QYqNKK
-11. vishnuk7:https://codepen.io/viuk/pen/XOZJeL
-12. thesmallstar - https://codepen.io/smallstar/pen/JxpKXZ
+11. ekthapriyesh24(Priyesh Raj): https://codepen.io/ekthapriyesh24/full/XOVwWX 
+12. vishnuk7:https://codepen.io/viuk/pen/XOZJeL
+13. thesmallstar - https://codepen.io/smallstar/pen/JxpKXZ
 
 ## Artwork Task 2 - Car
 1. Rattlecode17sh(Lalit Sharma)(car):- https://codepen.io/rattlecode17sh/pen/PXXYgB
