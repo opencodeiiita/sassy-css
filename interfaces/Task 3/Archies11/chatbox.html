@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Karla");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Karla", sans-serif;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	font-size: 16px;
+	background-color: #D7EAC4;
+}
+
+.chat-box {
+	width: 300px;
+	height: 400px;
+	background-color: #eee;
+	border-radius: 16px 16px 0 0;
+	overflow: hidden;
+	border: 2px #155115 solid;
+}
+
+.chat-box header {
+	background-color: #196F19;
+	color: #fff;
+	display: flex;
+	padding: 0 16px;
+}
+
+.chat-box header h1 {
+	margin: 0;
+	font-size: 1.1em;
+}
+
+.chat-box header .close-button {
+	cursor: pointer;
+	user-select: none;
+}
+
+.chat-box section {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: calc(100% - 40px - 40px);
+	padding: 12px;
+}
+
+.chat-box section div {
+	margin: 12px 0;
+}
+
+.chat-box section span {
+	display: inline-block;
+	padding: 6px 8px;
+	margin: 1px 0;
+	max-width: 90%;
+	word-wrap: break-word;
+}
+
+.chat-box section div.me {
+	text-align: left;
+}
+
+.chat-box section div.me span {
+	background-color: #7FB747;
+	border-radius: 4px 16px 16px 4px;
+}
+
+.chat-box section div.me span:first-of-type {
+	border-top-left-radius: 16px;
+}
+
+.chat-box section div.me span:last-of-type {
+	border-bottom-left-radius: 16px;
+}
+
+.chat-box section div.not-me {
+	text-align: right;
+}
+
+.chat-box section div.not-me span {
+	background-color: #BEFD7F;
+	border-radius: 16px 4px 4px 16px;
+}
+
+.chat-box section div.not-me span:first-of-type {
+	border-top-right-radius: 16px;
+}
+
+.chat-box section div.not-me span:last-of-type {
+	border-bottom-right-radius: 16px;
+}
+
+.chat-box footer input {
+	font-family: "Karla", sans-serif;
+	outline: 0;
+	padding: 0 12px;
+	height: 40px;
+	width: 100%;
+	font-size: 1em;
+}    
+    </style>
+    <script>
+        function sendMessage(message, itsMe) { 
+  var messageList = document.getElementById("message-list");
+  
+  var scrollToBottom = (messageList.scrollHeight - messageList.scrollTop - messageList.clientHeight < 80);
+
+  var lastMessage = messageList.children[messageList.children.length-1];
+  
+  var newMessage = document.createElement("span");
+  newMessage.innerHTML = message;
+
+  var className;
+  
+  if(itsMe)
+  {
+    className = "me";
+    scrollToBottom = true;
+  }
+  else
+  {
+    className = "not-me";
+  }
+  
+  if(lastMessage && lastMessage.classList.contains(className))
+  {
+    lastMessage.appendChild(document.createElement("br"));
+    lastMessage.appendChild(newMessage);
+  }
+  else
+  {
+    var messageBlock = document.createElement("div");
+    messageBlock.classList.add(className);
+    messageBlock.appendChild(newMessage);
+    messageList.appendChild(messageBlock);
+  }
+  
+  if(scrollToBottom)
+    messageList.scrollTop = messageList.scrollHeight;
+}
+
+var message = document.getElementById("message-input");
+message.addEventListener("keypress", function(event) {
+  var key = event.which || event.keyCode;
+  if(key === 13 && this.value.trim() !== "")
+  {
+    sendMessage(this.value, true);
+    this.value = "";
+  }
+});
+
+sendMessage("Hello!", true);
+sendMessage("Hey!", false);
+sendMessage("How are you doing?", false);
+sendMessage("I'm doing well.", true);
+sendMessage("What about you?", true);
+sendMessage("Good", false);
+
+function sendRandomMessages()
+{
+  var messageList = [
+   "What do you do for fun?",
+   "What do you dream to achieve ultimately in life?",
+   "What do you think is the cause of global warming?",
+   "Where do you live?",
+   "What do you like to eat for breakfast?"
+  ];
+  var choosenMessage = messageList[Math.floor(Math.random() * messageList.length)];
+  
+  sendMessage(choosenMessage, false);
+  
+  setTimeout(sendRandomMessages, Math.random()*10000 + 7000);
+}
+
+sendRandomMessages();
+
+    </script>
+</head>
+<body>
+<div class="chat-box">
+  <header>
+    <h1>Archisha</h1>
+    <span style="flex:1"></span>
+    <span class="close-button">X</span>
+  </header>
+  <section id="message-list">
+  </section>
+  <footer>
+    <input id="message-input" type="text" placeholder="Type a message...">
+  </footer>
+</div>
+</body>
+</html>
