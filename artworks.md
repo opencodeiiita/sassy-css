@@ -11,6 +11,7 @@
 9. mivishvajeet: https://codepen.io/mivishvajeet/pen/bzqmVY
 10. anupm12 (Anupam Shukla): https://codepen.io/anupm12/full/QYqNKK
 11. ekthapriyesh24(Priyesh Raj): https://codepen.io/ekthapriyesh24/full/XOVwWX 
+12. thesmallstar - https://codepen.io/smallstar/pen/JxpKXZ
 
 ## Artwork Task 2 - Car
 1. Rattlecode17sh(Lalit Sharma)(car):- https://codepen.io/rattlecode17sh/pen/PXXYgB
@@ -18,6 +19,9 @@
 3. Archies11: https://codepen.io/archies11/pen/LMMWYg
 4. dhairyabaweja: https://codepen.io/dhairyabaweja/full/MLapae
 5. mivishvajeet:https://codepen.io/mivishvajeet/pen/JxWqwK
+6. vishnuk7:https://codepen.io/viuk/pen/aXYpyq
+7. thesmallstar : https://codepen.io/smallstar/pen/Gzxyjo
+8. devgupta2607: https://codepen.io/devgupta2607/pen/wNXjZo
 
 ## Artwork Task 3 - Cat
 1. Archies11: https://codepen.io/archies11/pen/NeQbxV
@@ -35,3 +39,4 @@
 4. dhairyabaweja: https://codepen.io/dhairyabaweja/full/gqagaX
 5. mivishvajeet: https://codepen.io/mivishvajeet/pen/QYGjZg
 6. anupm12 : https://codepen.io/anupm12/full/YBVrdZ
+7. thesmallstar: https://codepen.io/smallstar/pen/GzGGBE
