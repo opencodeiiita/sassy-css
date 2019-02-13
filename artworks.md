@@ -17,7 +17,8 @@
 3. Archies11: https://codepen.io/archies11/pen/LMMWYg
 4. dhairyabaweja: https://codepen.io/dhairyabaweja/full/MLapae
 5. mivishvajeet:https://codepen.io/mivishvajeet/pen/JxWqwK
-6. devgupta2607: https://codepen.io/devgupta2607/pen/wNXjZo
+6. thesmallstar : https://codepen.io/smallstar/pen/Gzxyjo
+7. devgupta2607: https://codepen.io/devgupta2607/pen/wNXjZo
 
 ## Artwork Task 3 - Cat
 1. Archies11: https://codepen.io/archies11/pen/NeQbxV
